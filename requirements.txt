@@ -1,0 +1,22 @@
+# PortVPNtoQbit — Dependências Python
+
+# Requisições HTTP para API do qBittorrent
+requests>=2.31.0
+
+# Monitoramento de arquivos (watchdog do log da VPN)
+watchdog>=3.0.0
+
+# Ícone na bandeja do sistema
+pystray>=0.19.5
+
+# Manipulação de imagem (ícone do tray)
+Pillow>=10.0.0
+
+# Variáveis de ambiente via .env (opcional, mas recomendado)
+python-dotenv>=1.0.0
+
+# Notificações Toast do Windows — escolha UMA das opções abaixo:
+# Opção A (recomendada, mais moderna):
+winotify>=1.1.0
+# Opção B (alternativa):
+# win10toast>=0.9
